@@ -1,0 +1,476 @@
+
+
+main{
+	
+	width: 960px;
+	margin: 50px;
+	border-color: red;
+	border-width:10px;
+	border-style: groove;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: rgba(255,255,255,0.85);
+	margin-top:300px;
+
+}
+
+
+body{
+	
+	margin: 0;
+	padding: 0;
+	background-color: #7d7d7d;
+	background-image: url(imagen_fondo_gris.jpg);
+	background-repeat: no-repeat;
+	background-position: center 50px;
+	background-attachment:fixed;
+	background-size: cover;
+	
+	
+}
+
+
+
+
+header{
+		border: 1px solid red;
+		border-bottom:4px solid green;
+		/*background-color: #243059;*/
+		margin:0px;
+		padding: 10px;
+		position: fixed;
+		top: 0px;
+		left:0px;
+		right: 0px;
+		z-index:2;
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+45,190008+100 */
+		background: #a90329; /* Old browsers */
+		background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 45%, #190008 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 45%,#190008 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #a90329 0%,#8f0222 45%,#190008 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#190008',GradientType=0 ); /* IE6-9 */
+
+				
+				
+}
+
+header div{
+	border: 1px solid transparent;
+	width: 960px;
+	/*background-color:#243059;*/
+	margin: 0 auto;
+	
+	
+	
+	
+	
+}
+
+header ul{
+	
+	margin: 0 ;
+	padding: 0 ;
+	list-style: none;
+	
+	
+	
+}
+
+header nav li{
+	
+	
+	position: relative;
+	display: inline-block;
+	
+}
+
+header nav li a {
+	
+	color:white;
+	display:inline-block;
+	width:150px;
+	padding:7px 2px;
+	
+	
+}
+
+
+
+
+header nav li ul{
+	
+	opacity: 0.6; 
+	position: absolute;
+	display:none;
+	background: black;
+	left:0;
+	right:0;
+	
+	
+}
+
+header nav li ul li{
+	
+	display: block;
+	
+	
+	
+}
+
+
+header nav li ul li a{
+	width: 135px;
+	margin-left: 2px;
+	background:white;
+	color:blue;
+	
+	
+}
+
+header nav li ul li a:hover{
+	
+background-color:yellow;	
+	
+}
+
+header nav li:hover ul{
+	
+	display: block;
+	
+	
+}
+
+
+footer{
+	
+	
+	background-color: #2a2a2a;
+	border: 1px solid red;
+	
+}
+ footer div{
+	 
+	border: 1px solid #243059;
+	width: 1000px;
+	background-color:#243059;
+	margin: 0 auto;
+ }
+ 
+ footer ul {
+	 
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		color:white;
+		display: inline-block;
+		width: 50%;
+		 
+	 
+ }
+
+@font-face{
+	
+		font-family: logo;
+		src: url("planetbe.ttf");
+	
+}
+
+
+
+/*@import
+url("https://fonts.googleapis.com/css?family=Pacifico");*/
+
+
+
+.texto_rosa{       
+	
+	color: rgb(0,124,54)
+	
+}	
+
+a{
+	text-decoration: none;
+	color: magenta;
+	
+	
+}
+
+nav ul{
+	list-style-type: none;
+
+
+
+}
+
+
+
+a:hover{
+	color: blue;
+	cursor: urL(cursor.Webp) , pointer;
+
+	
+}
+	
+a:active{
+	color:green;	
+	
+}
+ 
+
+
+
+
+
+
+h1{
+	
+	font: bold 60px/60px logo-space;
+	color:violet;
+	padding:0px;
+	margin: 0px;
+	text-shadow: 5px 5px 5px black; 
+	
+	
+	
+}
+
+
+	
+	
+ 
+ p{
+	 
+	 
+	 font-family: "Verdana";
+		
+	 line-height: 30px;
+	 font-size: 16px;
+	 
+	 letter-spacing: 5px;
+	 word-spacing:15px;
+	 text-indent: 100px;
+	  
+	 
+ }
+ 
+ h2{
+	 
+	 /*font-family:"Trebuchet Ms"*/
+	 
+	 font: bold 40px/40px  "Pacifico" , cursive ; 
+	 color: violet;
+	
+	
+	 background-repeat:repeat-y;
+	
+	 background-image: url(dragonBall.jpg);
+	 background-position: right center;
+	 background-size: 20px 10px;
+	 
+	 
+	 
+ }
+ 
+ h3{
+	
+	font-family: "Trebuchet Ms";
+	text-transform: capitalize;
+	font-variant: small-caps;
+	text-decoration: underline overline;
+	
+	
+}
+
+blockquote{
+	
+	text-align: justify;
+	column-count: 3;
+	column-rule: 1px solid red;
+	column-gap: 50px;
+}
+
+
+#fotos li{
+	
+	width:500px ;
+	border: 1px solid red;
+	padding: 10px;
+	border-radius: 40px;
+	margin-bottom: 10px;
+	
+}
+ #fotos{
+	 margin:0;
+	 padding:0;
+	 list-style-type: none;
+	 
+	 
+ }
+ 
+ #razas{
+	 margin: 0;
+	 padding:0;
+	 list-style: none;
+	
+	 }
+	 
+#razas li{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 430px;
+	vertical-align: top;
+	padding: 3px;
+	
+	
+}
+
+#redes li{
+	display: inline-block;
+	margin-botton: 10px;
+}
+
+
+
+#redes a{  
+	background: url(sprite.png) 0px 0px;
+	text-indent: -200px;
+	overflow: hidden;
+	display: inline-block;
+	
+	width: 37px;
+	height: 37px;
+	
+}
+#fb:hover{
+	
+	background-position: 0px -37px;
+	
+	
+	
+	
+}
+#redes#tw{
+	
+	background-position: -290px -74px; 
+	
+	
+	
+}
+
+
+
+
+#tw:hover{
+	
+	
+	background-position: -290px -37px;
+	
+	
+	
+}
+
+/*
+
+	overflow: hidden;
+	text-indent: -200px;
+	display: inline-block;
+	background: url(facebook.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	
+	
+	
+}
+#fb:hover{background-image:url(facebook2.png)}
+#tw:hover{background-image:url(twitter2.png)}
+
+#tw{
+	overflow: hidden;
+	text-indent: -200px;
+	display: inline-block;
+	background: url(twitter.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	
+	
+	
+}
+#goo{
+	overflow: hidden;
+	text-indent: -200px;
+	display: inline-block;
+	background: url(facebook.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	
+	
+	
+}
+*/
+article p{
+	
+	/*word-break : break-all;*/
+	hyphens: auto;
+	
+}
+
+article h2{
+	
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: allipsis;
+	
+	
+
+	
+}
+
+#casos{
+	
+	width: 100%;
+	border-collapse: collapse;
+	caption-side: bottom;
+	
+	
+}
+
+
+#casos caption{
+	
+		color: silver;
+		font:italic 20px "Trebuchet Ms";
+		background:black;
+	
+
+}
+
+#casos th{
+	
+	background: blue;
+	color: white;
+	border: 1px solid black;
+	
+	
+}
+
+#casos td{
+	
+	
+	border: 1px solid red;
+}
+
+#casos tfoot td {
+	
+	
+	background: blue;
+	color: white;
+	
+	
+}
+
+#casos tbody td {
+	
+	background:white;
+	
+	
+}
